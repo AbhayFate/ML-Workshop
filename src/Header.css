@@ -1,0 +1,17 @@
+#navbar{
+    z-index: 200;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  
+    background-color: black;
+}
+@media screen and (max-width:1000px) {
+    #navbar{
+        width: 100vh;
+    }
+} 
+#logo{
+    height: 7vh;
+    width: 10vh;
+}
