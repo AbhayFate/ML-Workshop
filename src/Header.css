@@ -2,13 +2,19 @@
     z-index: 200;
     position: absolute;
     top: 0px;
-    width: 100%;
+    width: auto !important;
   
     background-color: black;
 }
-@media screen and (max-width:1000px) {
-    #navbar{
-        width: 100vh;
+@media screen and (max-width:900px) {
+    
+#navbar {
+        z-index: 200;
+        position: absolute;
+        top: 0px;
+        width: auto !important;
+
+        background-color: black;
     }
 } 
 #logo{
