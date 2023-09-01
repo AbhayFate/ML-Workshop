@@ -11,8 +11,8 @@ const Newevent = () => {
     <div id="mlbackground">
 
        <h1 className='mlintro'>SAEINDIA Welcome you to</h1>
-       <div id="welcome" className='mlintro'><span>Artificial Intelligance</span><br /> and <span>Machine Learning</span><br />Workshop</div>
-       <button id="register-btn">Register Now !</button>
+       <div id="welcome" className='mlintro'><span>Artificial Intelligence</span><br /> and <span>Machine Learning</span><br />Workshop</div>
+       <button id="register-btn"><span id='reg'>Register Now!</span></button>
     </div>
     <div id="newevent">
          <h1 id="newheader">ML Workshop</h1> 

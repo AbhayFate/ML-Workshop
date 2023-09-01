@@ -72,7 +72,7 @@
        }
        
        #mlbackground{
-           height: 200vh;
+           height: 200px;
            width: 100vh;
            justify-content: center;
            display: flex;
@@ -81,7 +81,7 @@
        
        }
     #newevent{
-        width: 100vh;
+        
         height: 100vh;
     }
     #intro-section{
@@ -101,17 +101,17 @@
     
     }
     #mainevent{
-        width: 100vh;
+        
         padding: 0px 0px;
     }
     #mainevent::before{
         content: "";
-        background: url("https://images.pexels.com/photos/3785932/pexels-photo-3785932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")center center/cover no-repeat;
+        
         position: absolute;
         top: 0px;
         left: 0px;
         height: 100vh;
-        width: 100vh;
+        width: 100vw;
         z-index: 1;
         opacity: 0.8;
     }
@@ -121,21 +121,65 @@
         height: 0%;
         width: 0%;
     }
-   
-        
+   .mlintro {
+       color: white;
+       display: flex;
+       align-items:baseline!important;
+       font-size:1.5rem !important;
+       font-weight: 600;
+       text-align: flex-start;
+       z-index: 200;
+       display: block;
+       width: 100vw !important;
+       margin: 0px auto;
+   }
+        #welcome {
+            color: white;
+            font-size: 0.9rem !important;
+            font-weight: 800;
+    
+    
+        }
+                #mlbackground::before {
+                    content: "";
+                    background: url("https://images.pexels.com/photos/3785932/pexels-photo-3785932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")center center/cover no-repeat;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    height: 200vh;
+                    width: 100vw;
+                    z-index: 1;
+                    opacity: 0.8;
+                }
+ 
+ #MLWorkshop {
+     width: 100vw;
+     height: 450px;
+     border-radius: 10px;
+     text-align: center;
+ }
+ #register-btn {
+     width: 6.8rem !important;
+    
+
+ }
 
 }
 #register-btn{
-    width: 30%;
+    width: 9%;
     color: black;
     background-color: white;
     border: 2px solid white;
     border-radius: 4px;
-    height: 40px;
+    height: 4.5%;
     margin-bottom: 40px;
     z-index: 200;
     margin: 10px;
-    font-size: x-large;
+    
+}
+#reg{
+    font-size: 13.9px;
+    font-weight: bold;
 }
 #register-btn:hover{
     background-color: black;
@@ -164,18 +208,36 @@
 }
 #welcome{
     color: white;
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 800;
    
     
 }
 .mlintro{
     color: white;
-    font-size: 30px;
+    font-size: 80px;
     font-weight: 600;
     text-align: center;
     z-index: 200;
     display: block;
     width: 100vh;
     margin: 0px auto;
+}
+#navbar {
+    z-index: 200;
+    position: absolute;
+    top: 0px;
+    width: 100% !important;
+
+    background-color: black;
+}
+
+
+
+#logo {
+    height: 7vh;
+    width: 10vh;
+}
+@media screen and (min-width:200px) {
+    
 }
