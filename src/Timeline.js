@@ -4,17 +4,20 @@ import './TimelineStyles.css'
 const Timeline = () => {
   return (
     <>
-   <div className="container-fluid blue-bg">
+    <div className="container-fluid blue-bg">
     <div className="container">
         <h2 className="pb-3 pt-2">Timeline of the Event</h2>
      
         <div className="row align-items-center how-it-works">
             <div className="col-2 text-center bottom">
-                <div className="circle">1</div>
+                <div className="circle">Day 1</div>
             </div>
             <div className="col-6">
-                <h5>Fully Responsive</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+                <h5><strong>02/07/2023</strong></h5>
+                <br></br>
+               <div className='basic'><p>10AM-12PM: Basics Of Python</p></div> 
+                
+                 <p className='basic'>4PM-6PM: Fundamentals of Machine Learning Focusing on Neural Network and CNN models </p>
             </div>
         </div>
       
@@ -32,11 +35,14 @@ const Timeline = () => {
       
         <div className="row align-items-center justify-content-end how-it-works">
             <div className="col-6 text-right">
-                <h5>Using Bootstrap</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+                <h5><strong>03/07/2023</strong></h5>
+                <br></br>
+                <p>10AM-12PM : Recap of Neural Networks, followed by an engaging Image Classification project using Neural Networks. </p>
+                
+                 <p>4PM-6PM :  Apply your knowledge to a Real-Time Object Detection project with the YOLO algorithm.</p>
             </div>
             <div className="col-2 text-center full">
-                <div className="circle">2</div>
+                <div className="circle">Day 2</div>
             </div>
         </div>
       
@@ -54,11 +60,11 @@ const Timeline = () => {
        
         <div className="row align-items-center how-it-works">
             <div className="col-2 text-center top">
-                <div className="circle">3</div>
+                <div className="circle">END</div>
             </div>
             <div className="col-6">
-                <h5>Now with Pug and Sass</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.</p>
+                <p>"As we come to the end, remember that the world of technology is ever-evolving. Embrace change, keep learning, and stay curious!"</p>
+                
             </div>
         </div>
     </div>
